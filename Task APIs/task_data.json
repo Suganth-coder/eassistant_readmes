@@ -1,0 +1,19 @@
+{
+    "task_title": "Flutter App Development",
+    "task_description": "",
+    "due_date": "2001-02-28",
+    "task_priority": "normal",
+    "is_recurring": true,
+    "task_data": {
+        "is_indefinite": true,
+        "recur_type": "day",
+        "time_interval": 2
+    },
+    "assign_to": [{
+        "user_id": "8ae614e26211e7ac8c6d97d0460a640eec8309aaa3ac55a8ac28100e973149de"
+    }],
+    "share_with": [{
+        "user_id": "8ae614e26211e7ac8c6d97d0460a640eec8309aaa3ac55a8ac28100e973149de"
+    }],
+    "comment": ""
+}

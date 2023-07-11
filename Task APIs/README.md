@@ -9,6 +9,9 @@ API Path : `Mobile APIs > Task APIs > Adding the Task`
     - attachment files (Multiple Files)
     - task_data (Json Task Data)
 
+Task data format: [task_data.json](./task_data.json)
+
+
 `Note`: Intial Attachments files will be passed while creating the task api
 
 ## Adding new attachments to existing tasks
