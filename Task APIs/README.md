@@ -66,6 +66,7 @@ Here, you have two new parameters for updations,
 
 These, parameters are set default status=inprogress, completion_status = 0, at the time of creation of tasks. You can update this params, in this update API
 
+
 ## Deleting the Tasks
 
 API PATH: `Mobile APIs > Task APIs > Deleting the Task`
@@ -88,3 +89,35 @@ API PATH: `Mobile APIs > Task APIs > Deleting the Task`
 * [InDefinite Recurring Month Task Format](./recurring%20task%20formats/indefinite_month.json)
 * [End Date Recurring Month Task Format](./recurring%20task%20formats/enddate_month.json)
 
+
+## Task Detailed API
+
+API PATH: `Mobile APIs > Task APIs > Task Detailed API`
+
+* Input Type: None
+* Parameters
+    - get params
+* URL: `/mobile/tasks/list/detail/{task_id}`
+
+## Task Overview APIs
+
+API PATH: `Mobile APIs > Task APIs > Task Overview API`
+
+* Input Type: None
+* Parameters: None
+* URL: `/mobile/tasks/status/counts`
+
+## Mobile | Web APP Other Task screen APIS
+
+Under, Task APIs, We have three folders,
+
+* In Progress Tasks
+* Completed Tasks
+* Closed Tasks
+   - Once the task is closed it cannot be updated
+
+Each of the above consists of follwing requests,
+
+    - CreatedByMe
+    - AssignedToMe
+    - SharedWithMe
