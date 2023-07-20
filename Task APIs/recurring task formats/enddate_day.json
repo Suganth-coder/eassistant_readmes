@@ -11,10 +11,12 @@
         "end_date": "2023-07-28"
     },
     "assign_to": [{
-        "user_id": "8ae614e26211e7ac8c6d97d0460a640eec8309aaa3ac55a8ac28100e973149de"
+        "user_id": "8ae614e26211e7ac8c6d97d0460a640eec8309aaa3ac55a8ac28100e973149de",
+        "profile_image": "https://picsum.photos/200/300"
     }],
     "share_with": [{
-        "user_id": "8ae614e26211e7ac8c6d97d0460a640eec8309aaa3ac55a8ac28100e973149de"
+        "user_id": "a5aec2928589a349e7c70cefbb3c83d3b94ea500e7daace7a49cb38f27c648bc",
+        "profile_image": "https://picsum.photos/200/300"
     }],
     "comment": ""
 }

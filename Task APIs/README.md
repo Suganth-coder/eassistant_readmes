@@ -4,10 +4,9 @@ Task APIS
 
 API Path : `Mobile APIs > Task APIs > Adding the Task`
 
-* Input Type: `HTML Form` 
+* Input Type: `JSON Format`
 * Parmeters 
-    - attachment files (Multiple Files)
-    - task_data (Json Task Data)
+    - task_data
 
 Task data format: [task_data.json](./task_data.json)
 
@@ -47,7 +46,7 @@ Example,
 Old data
 ```
     "assign_to": [
-        {"user_id":id1}
+        {"user_id":id1, "profile_image":"link"}
     ]
 ```
 If i need to add new assign member with user id `id2`. Then i need to pass like below,
@@ -55,8 +54,8 @@ If i need to add new assign member with user id `id2`. Then i need to pass like 
 New data for updation
 ```
     "assign_to": [
-        {"user_id":id1},
-        {"user_id":id2}
+        {"user_id":id1, "profile_image":"link"}
+        {"user_id":id1, "profile_image":"link"}
     ]
 ```
 
